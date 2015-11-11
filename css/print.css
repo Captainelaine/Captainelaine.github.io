@@ -1,0 +1,105 @@
+body {
+  color: black;
+  background: transparent;
+  font-size: Npt;
+  font-family: serif;
+}
+
+#container {
+   width: 10in;
+   margin: 0 auto 0 auto;
+   padding: 0.2in;
+   border-width:2pt;
+   border-color:#000;
+   border-style:solid;
+ }
+
+ h1 {
+   font-size: 300%;
+   font-weight: bold;
+   text-align: center
+ }
+
+ h2 {
+   font-size: 150%;
+   font-weight: bold;
+ }
+
+ h3 {
+   font-style: italic;
+ }
+
+ nav {
+   width: 9.5in;
+   padding: 5pt;
+   border-top: 2pt solid #000;
+   border-bottom: 1pt solid #000;
+   text-align: center;
+ }
+
+ .f {
+   display: inline;
+   margin: 0;
+ }
+
+ img {
+   width: 3.125in;
+   height: 2.7in;
+   float: left;
+   margin-left: 1em;
+   margin-right: 1em;
+   padding: 10pt 60pt;
+   border-right: 1pt solid rgb(138,139,138);
+ }
+
+ #contact {
+   font-size: 150%;
+   padding: 60pt;
+   text-align: center;
+ }
+
+ header {
+   border-bottom: 2pt solid #000;
+ }
+
+ section {
+   border-bottom: 1pt solid #000;
+   padding: 1em;
+   text-align: center;
+ }
+
+ a {
+   text-decoration: none;
+ }
+
+ strong {
+   font-weight: bold;
+ }
+
+ em {
+   font-weight: bold;
+ }
+
+ article {
+   padding: 2pt;
+   margin-left: 10em;
+   margin-right: 10em;
+ }
+
+ article li {
+   text-align: left;
+   margin-left: 5em;
+   margin-right: 3.5em;
+ }
+
+ #skill {
+   margin-left: 4em;
+ }
+
+ #software {
+   margin-left: -8em;
+ }
+
+ footer {
+   text-align: center;
+ }
