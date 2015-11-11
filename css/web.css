@@ -9,25 +9,29 @@ body {
 }
 
 #container {
+   background-color: rgb(243,232,241);
    max-width: 960px;
    min-width: 720px;
-   margin: 0 auto 0 auto;
+   margin: 0 auto;
    padding: 20px;
    border-width:2px;
-   border-color:rgb(126,133,134);
+   border-color:rgb(255,255,255);
    border-style:solid;
-
  }
 
 h1 {
   font-size: 300%;
   font-family:"Pacifico","sans-serif";
-  text-align: center;
+  text-align: center
 }
 
 h2 {
   font-size: 150%;
   font-family:"Raleway","sans-serif";
+}
+
+h3 {
+  color: rgb(49,134,70);
 }
 
 nav {
@@ -41,25 +45,70 @@ nav {
 
 .f {
   display: inline;
-  margin: 0px 3px;
+  margin: 0px 0px;
 }
 
 
 img {
-  float: left;
-  margin-right: 100px;
-  margin-left: 150px;
   width: 300px;
   height: 260px;
+  float: left;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 10px 60px;
+  border-right: 1px solid rgb(138,139,138);
 }
 
 #contact {
   font-size: 150%;
   font-family: "Raleway","sans-serif";
-  padding: 15px;
-  margin-top: 35px;
+  padding: 60px;
+  text-align: center;
 }
 
-#education {
-  clear: both;
+header {
+  border-bottom: 2px solid #000;
+}
+
+section {
+  border-bottom: 1px solid #000;
+  padding: 1em;
+  text-align: center;
+}
+
+a:hover {
+  color: rgb(219,33,40);
+}
+
+strong {
+  font-weight: bold;
+  color: rgb(155,41,79);
+}
+
+em {
+  font-weight: bold;
+}
+
+article {
+  padding: 2px;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+article li {
+  text-align: left;
+  margin-left: 5em;
+  margin-right: 3.5em;
+}
+
+#skill {
+  margin-left: 4em;
+}
+
+#software {
+  margin-left: -8em;
+}
+
+footer {
+  text-align: center;
 }
