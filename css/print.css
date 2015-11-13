@@ -23,18 +23,22 @@ body {
  h2 {
    font-size: 150%;
    font-weight: bold;
+   margin-left: 0.5in;
+   margin-bottom: 0.16in;
  }
 
  h3 {
    font-style: italic;
+   color: rgb(49,134,70);
  }
 
  nav {
    width: 9.5in;
-   padding: 5pt;
+   padding: 0.05in;
    border-top: 2pt solid #000;
    border-bottom: 1pt solid #000;
    text-align: center;
+   margin: auto;
  }
 
  .f {
@@ -46,10 +50,10 @@ body {
    width: 3.125in;
    height: 2.7in;
    float: left;
-   margin-left: 1em;
-   margin-right: 1em;
-   padding: 10pt 60pt;
-   border-right: 1pt solid rgb(138,139,138);
+   margin-left: 0.16in;
+   margin-right: 0.16in;
+   padding: 10pt 80pt;
+   border-right: 1pt solid #000;
  }
 
  #contact {
@@ -64,16 +68,19 @@ body {
 
  section {
    border-bottom: 1pt solid #000;
-   padding: 1em;
-   text-align: center;
  }
 
  a {
    text-decoration: none;
  }
 
+ a[href^="http"]:after{
+   content: "  ("attr(href)") ";
+ }
+
  strong {
    font-weight: bold;
+   color: rgb(155,41,79);
  }
 
  em {
@@ -81,25 +88,49 @@ body {
  }
 
  article {
-   padding: 2pt;
-   margin-left: 10em;
-   margin-right: 10em;
+   margin-left: 0.53in;
+   margin-right: 1.67in;
+   margin-bottom: 0.5in;
  }
 
  article li {
    text-align: left;
-   margin-left: 5em;
-   margin-right: 3.5em;
+   margin-left: -0.16in;
+   margin-right: 0.58in;
  }
 
  #skill {
-   margin-left: 4em;
+   margin-left: auto;
  }
 
  #software {
-   margin-left: -8em;
+   margin-left: auto;
  }
 
  footer {
    text-align: center;
+ }
+
+ article p {
+   margin-top: -0.08in;
+ }
+
+ article ul {
+   margin-top: -0.16in;
+ }
+
+ #navigation {
+   margin-left: auto;
+ }
+
+ h4 {
+   margin-top: -0.1in;
+ }
+
+ h3 {
+   margin-top: -0.08in;
+ }
+
+ #cca {
+   padding-top: 0.5in;
  }
