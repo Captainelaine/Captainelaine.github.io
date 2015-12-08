@@ -33,12 +33,7 @@ body {
  }
 
  nav {
-   width: 9.5in;
-   padding: 0.05in;
-   border-top: 2pt solid #000;
-   border-bottom: 1pt solid #000;
-   text-align: center;
-   margin: auto;
+  display: hide;
  }
 
  .f {
