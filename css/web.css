@@ -40,6 +40,15 @@ body {
   margin-top: 70px;
 }
 
+#containerinfo {
+  max-width: 960px;
+  min-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  margin-top: 70px;
+}
+
 h1 {
   font-size: 300%;
   font-family:"Pacifico","sans-serif";
@@ -80,8 +89,8 @@ img {
   margin-top: 20px;
 }
 img[src="images/info-1.jpg"]{
-  width: 450px;
-  height: 550px;
+  width: 650px;
+  height: 750px;
 }
 img[src="images/zhou-fang1.jpg"]{
   width: 260px;
@@ -89,6 +98,18 @@ img[src="images/zhou-fang1.jpg"]{
   border: 5px solid rgb(239,183,161);
   border-radius: 50%;
   margin-top: 10px;
+}
+img[src="images/info-2.jpg"]{
+  width:850px;
+  height:550px;
+}
+img[src="images/info-3.jpg"]{
+  width:850px;
+  height:550px;
+}
+img[src="images/final5.jpg"] {
+  width:850px;
+  height:550px;
 }
 
 
@@ -222,3 +243,27 @@ h3 {
  #contactnav li a:active {
    background-color: #4CAF50;
  }
+
+.page1{
+   border: 0px;
+   text-align: center;
+ }
+
+.page2{
+  border: 0px;
+  text-align: center;
+  }
+
+.page4{
+    border: 0px;
+    text-align: center;
+   }
+
+.page3{
+    border: 0px;
+    text-align: center;
+    }
+video {
+  width: 850px;
+  height: 550px;
+}

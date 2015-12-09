@@ -5,11 +5,11 @@
    <title>Zhou Fang's Storytelling</title>
    <link href="css/web.css" rel="stylesheet" media="screen" />
    <link href="css/print.css" rel="stylesheet" media="print" />
-   
+
  </head>
 
  <body>
-   <div id="container">
+   <div id="containerinfo">
      <ul id="contactnav">
        <li><a href="home.html">Home</a></li>
        <li><a href="resume.html">Profile</a></li>
@@ -19,6 +19,24 @@
      </ul>
    </div>
 
+   <video id="video2" controls>
+       <source src="https://youtu.be/rekMdlxgZUE" type="video/youtube">
+  </video>
+
+   <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+   <script src="js/videojs/js/jquery.video-extend.js"></script>
+   <script>
+       $(document).bind('ready',function(){
+
+           $('#video2').videoExtend({
+               logo: 'images/logo.jpg',
+               logoLink: 'http://zxf76.me/home.html',
+               logoSize: [ 60, 80 ],
+               logoPosition: [ 'auto', 10, 50, 'auto' ]
+           });
+
+       });
+   </script>
 
 </body>
 </html>
