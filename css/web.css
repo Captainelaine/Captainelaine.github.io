@@ -19,6 +19,7 @@ body {
    border-color:rgb(255,255,255);
    border-style:solid;
    margin-top: 70px;
+
  }
 
 
@@ -207,6 +208,7 @@ h3 {
   text-align: center;
 }
  #contactnav {
+   z-index: 1000;
    list-style-type: none;
    margin-top: 0;
    padding: 0;
@@ -263,6 +265,10 @@ h3 {
     border: 0px;
     text-align: center;
     }
+
+.slide {
+  z-index:500；
+}
 video {
   width: 850px;
   height: 550px;
