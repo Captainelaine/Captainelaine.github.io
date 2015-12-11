@@ -1,0 +1,265 @@
+@media (max-width: 320px){
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Raleway:800);
+
+  body {
+    width: 320px;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
+
+  #container {
+    margin: 0 auto;
+    margin-top:170px;
+    background-color: inherit;
+    border: none;
+   }
+
+  #containerhome {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  #containercontact {
+    margin: 0 auto;
+    text-align: center;
+    margin-top:170px;
+  }
+
+  #containerinfo {
+
+    margin: 0 auto;
+    text-align: center;
+    margin-top:170px;
+  }
+
+  h1 {
+    font-family: "Pacifico",sans-serif;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 150%;
+    font-family:"Raleway",sans-serif;
+    margin-bottom: 1em;
+    margin-left: 0.5em;
+  }
+
+  h3 {
+    color: rgb(89,74,83);
+
+  }
+
+  nav {
+    max-width: 320px;
+    padding: 5px;
+    border-top: 1px solid #000;
+    text-align: left;
+    display: none;
+
+  }
+
+  .f {
+    display: inline;
+    margin: 20px 20px;
+  }
+
+  img {
+    width: 320px;
+    height: 200px;
+    border: 2px solid;
+    border-color: transparent;
+    border-radius: 20px;
+    margin-top: 20px;
+  }
+  img[src="images/info-1.jpg"]{
+
+    width: 300px;
+    height: 400px;
+  }
+  img[src="images/zhou-fang1.jpg"]{
+    width: 260px;
+    height: 260px;
+    border: 5px solid rgb(239,183,161);
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  img[src="images/info-2.jpg"]{
+    width:290px;
+    height:200px;
+  }
+  img[src="images/info-3.jpg"]{
+    width:300px;
+    height:200px;
+  }
+  img[src="images/final5.jpg"] {
+    width:300px;
+    height:200px;
+  }
+
+
+  #contact {
+    font-size: 150%;
+    font-family: "Raleway",sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header {
+    border-bottom: 1px solid #000;
+  }
+
+  section {
+    border-bottom: 1px solid #000;
+    text-align: left;
+  }
+  a:visited {
+    color: rgb(228,63,106);
+  }
+
+  a:hover {
+    color: rgb(250,196,154);
+  }
+
+  a {
+    color: rgb(152,55,2);
+  }
+  strong {
+    font-weight: bold;
+    color: rgb(155,41,79);
+  }
+
+  em {
+    font-weight: bold;
+  }
+
+  article {
+    margin-left: 1em;
+    margin-right: 0.5em;
+    margin-bottom: 3em;
+  }
+
+  article li {
+    margin-left: -1em;
+    margin-right: 1em;
+  }
+
+  #skill {
+    margin-left: auto;
+  }
+
+  #software {
+    margin-left: auto;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  article p {
+    margin-top: -1em;
+  }
+
+  article ul {
+    margin-top: -1em;
+  }
+
+  #navigation {
+    margin-left: auto;
+  }
+
+  h4 {
+    margin-top: -1em;
+  }
+
+  h3 {
+    margin-top: -0.5em;
+  }
+
+  .homenav {
+    display: block;
+    border: 2px solid rgb(255,255,255);
+    padding: 15px;
+    width: 200px;
+    height: 23px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(255,255,255);
+    opacity: 0.8;
+    border-radius: 20px;
+    font-size: 18px;
+    text-align: center;
+  }
+   #contactnav {
+     z-index: 1000;
+     list-style-type: none;
+     margin-top: 0;
+     padding: 0;
+     overflow: hidden;
+     /*background-color: rgb(53,38,54);*/
+     opacity:0.9;
+     position: fixed;
+     top: 0;
+     width: 280px;
+     text-align: center;
+     border-radius: 20px;
+     /*display: none;*/
+
+   }
+
+   #contactnav li {
+     display: inline-block;
+     text-align: center;
+     margin-left: 1px;
+
+   }
+
+   #contactnav li a {
+     display: block;
+     color: white;
+     text-align: center;
+     /*padding: 14px 16px;*/
+     text-decoration: none;
+
+   }
+
+   #contactnav li a:hover {
+     background-color: #111;
+   }
+   #contactnav li a:active {
+     background-color: #4CAF50;
+   }
+
+  .page1{
+     border: 0px;
+     text-align: center;
+   }
+
+  .page2{
+    border: 0px;
+    text-align: center;
+    }
+
+  .page4{
+      border: 0px;
+      text-align: center;
+     }
+
+  .page3{
+      border: 0px;
+      text-align: center;
+      }
+
+  .slide {
+    z-index:500；
+  }
+
+  video {
+    margin-top: 50px;
+    width: 320px;
+    height: 200px;
+  }
+  .top {
+    display: none;
+  }
+}

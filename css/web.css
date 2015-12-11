@@ -2,7 +2,7 @@
 
 body {
   font-size: 16px;
-  font-family: "sans-serif";
+  font-family: sans-serif;
   background-image: url("../images/new.jpg");
   background-attachment: fixed;
   line-height: 1.5;
@@ -12,7 +12,7 @@ body {
    background-color: rgb(255,255,255);
    opacity: 0.8;
    max-width: 960px;
-   min-width: 600px;
+   /*min-width: 600px;*/
    margin: 0 auto;
    padding: 20px;
    border-width:2px;
@@ -24,7 +24,6 @@ body {
 
 #containerhome {
   max-width: 960px;
-  min-width: 600px;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
@@ -33,7 +32,6 @@ body {
 
 #containercontact {
   max-width: 960px;
-  min-width: 600px;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
@@ -42,7 +40,7 @@ body {
 
 #containerinfo {
   max-width: 960px;
-  min-width: 600px;
+
   margin: 0 auto;
   padding: 20px;
   text-align: center;
@@ -51,13 +49,13 @@ body {
 
 h1 {
   font-size: 300%;
-  font-family:"Pacifico","sans-serif";
+  font-family:"Pacifico",sans-serif;
   text-align: center
 }
 
 h2 {
   font-size: 150%;
-  font-family:"Raleway","sans-serif";
+  font-family:"Raleway",sans-serif;
   margin-left: 4em;
   margin-bottom: 1em;
 }
@@ -115,7 +113,7 @@ img[src="images/final5.jpg"] {
 
 #contact {
   font-size: 150%;
-  font-family: "Raleway","sans-serif";
+  font-family: "Raleway",sans-serif;
   padding: 60px;
   text-align: center;
 }
@@ -132,7 +130,7 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(253,178,37);
+  color: rgb(250,196,154);
 }
 
 a {
