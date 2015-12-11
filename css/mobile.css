@@ -10,7 +10,7 @@
 
   #container {
     margin: 0 auto;
-    margin-top:170px;
+    margin-top:150px;
     background-color: inherit;
     border: none;
    }
@@ -23,14 +23,14 @@
   #containercontact {
     margin: 0 auto;
     text-align: center;
-    margin-top:170px;
+    margin-top:150px;
   }
 
   #containerinfo {
 
     margin: 0 auto;
     text-align: center;
-    margin-top:170px;
+    margin-top:150px;
   }
 
   h1 {
@@ -230,29 +230,30 @@
      background-color: rgb(125,83,86);
    }
 
-  .page1{
+ .page1{
      border: 0px;
-     text-align: center;
+     /*text-align: center;*/
    }
 
   .page2{
     border: 0px;
-    text-align: center;
+    /*text-align: center;*/
     }
 
   .page4{
       border: 0px;
-      text-align: center;
+      /*text-align: center;*/
      }
 
   .page3{
       border: 0px;
-      text-align: center;
+      /*text-align: center;*/
       }
 
   .slide {
-    z-index:500；
+    /*z-index:500；*/
   }
+
 
   video {
     margin-top: 50px;
