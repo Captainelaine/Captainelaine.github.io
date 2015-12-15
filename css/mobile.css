@@ -76,6 +76,8 @@
 
     width: 300px;
     height: 400px;
+    margin-left: -20px;
+    margin-top: -400px;
   }
   img[src="images/zhou-fang1.jpg"]{
     width: 260px;
@@ -83,18 +85,27 @@
     border: 5px solid rgb(239,183,161);
     border-radius: 50%;
     margin-top: 10px;
+
   }
   img[src="images/info-2.jpg"]{
-    width:290px;
+    width:300px;
     height:200px;
+    margin-left: -20px;
+
+
   }
   img[src="images/info-3.jpg"]{
     width:300px;
     height:200px;
+    margin-left: -20px;
+    margin-top: -400px;
+    margin-bottom:-200px;
   }
   img[src="images/final5.jpg"] {
     width:300px;
     height:200px;
+    margin-left: -20px;
+    margin-top: -800px;
   }
 
 
@@ -204,6 +215,7 @@
      text-align: center;
      border-radius: 20px;
      /*display: none;*/
+     margin-left:-10px;
 
    }
 
@@ -259,6 +271,7 @@
     margin-top: 50px;
     width: 320px;
     height: 200px;
+
   }
   .top {
     display: none;
